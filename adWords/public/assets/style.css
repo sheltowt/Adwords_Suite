@@ -76,3 +76,15 @@ b,
 .x.axis path {
   display: none;
 }
+
+.consumer_intelligence_text {
+    position: fixed;
+	right: 150px;
+    top:10px;
+}
+
+.quality_score_text {
+    position: fixed;
+	right: 150px;
+    top:10px;
+}

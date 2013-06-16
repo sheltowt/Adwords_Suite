@@ -49,8 +49,8 @@ var CampaignProfitView = Backbone.View.extend({
       var $tabNotes = $('<div id="tabNotes"></div>')
       $('#tabs').append($tabNotes);
       $('#tabNotes').append(('<ul type="circle">' + 
-         '<li><div>Pause Red</div></li>' +
-         '<li><div>Increase bids on Blue</div></li>' +
+         '<li><div>Pause bids on red words</div></li>' +
+         '<li><div>Increase bids on blue words</div></li>' +
         '</ul>'
         ));
     }
@@ -84,8 +84,8 @@ var ConsumerIntelligenceView = Backbone.View.extend({
       if(!$('#tabNotes').length){
         var $tabNotes = $('<div id="tabNotes"></div>')
         $('#tabs').append($tabNotes);
-        $('#tabNotes').append(('<ul type="circle">' + 
-         '<li><div>Increase volume on "Cat the Hat"</div></li>' +
+        $('#tabNotes').append(('<ul class="consumer_intelligence_text">' + 
+         '<li><div>Increase volume on "cat the hat"</div></li>' +
          '<li><div>Pause all others</div></li>' +
         '</ul>'
         ));
@@ -121,7 +121,7 @@ var QualityScoreView = Backbone.View.extend({
       if(!$('#tabNotes').length){
         var $tabNotes = $('<div id="tabNotes"></div>')
         $('#tabs').append($tabNotes);
-        $('#tabNotes').append(('<ul type="circle">' + 
+        $('#tabNotes').append(('<ul class="quality_score_text">' + 
          '<li><div>Understand the two different types of lists</div></li>' +
          '<li><div>Understand embedded bullet lists</div></li>' +
          '<li><div>Ensuring W3C Compliance</div></li>' +
